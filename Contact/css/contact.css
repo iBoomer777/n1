@@ -1,0 +1,49 @@
+.round-image {
+    border-radius: 50%;
+}
+
+.li-text {
+    list-style-type: none;
+}
+
+.link-text {
+    text-decoration: none;
+}
+
+.contact-x {
+    width: 45px;
+    height: 45px;
+    background-color: #282828;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-instagram {
+    width: 45px;
+    height: 45px;
+    background: radial-gradient(circle at 30% 110%,
+    #ffdb8b 0%,
+    #ee653d 25%,
+    #d42e81 50%,
+    #a237b6 75%,
+    #3e57bc 100%);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-facebook {
+    width: 45px;
+    height: 45px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

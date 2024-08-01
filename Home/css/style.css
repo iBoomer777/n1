@@ -1,0 +1,157 @@
+.feature-background {
+    background-color: #00adb5;
+    height: 100%;
+    /* border: 3px solid #737373; */
+}
+
+.feature-bg-color {
+    background-color: #00adb5;
+}
+
+.feature-container {
+    background-color: #eeeeee;
+    position: relative;
+    border: 2px solid #c6c3c3;
+    border-radius: 10px;
+    /* height: 70%; */
+}
+
+/* .feature {
+    width: 30%;
+} */
+
+.feature-border {
+    border: 2px solid #c6c3c3;
+}
+
+.h2-border {
+    border-bottom: 2px solid #C6c3c3;
+}
+
+.rounded-container {
+    width: 50px;
+    height: 50px;
+    background-color: #ff5757;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+.container-text-centered {
+    text-align: center;
+}
+
+/* .me-bg {
+    background-color:#222831;
+    width: 70%;
+} */
+
+
+/* .border-bottom {
+    border-color: 2px solid #c6c3c3;
+} */
+
+/* .section.skills {
+    margin-top: -14rem;
+    padding-bottom: 1rem;
+}
+
+.section {
+    padding: 5rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .section {
+        padding: 3rem 3rem;
+    }
+}
+
+.has-text-centered {
+    text-align: center !important;
+} */
+
+
+
+@media (min-width: 992px) {
+    .border-mid {
+        border-left: 2px solid #c6c3c3;
+        border-right: 2px solid #c6c3c3;
+    }
+}
+
+@media (max-width: 991px) {
+    .border-bot {
+        border-bottom: 2px solid #c6c3c3;
+    }
+}
+
+/* @media (max-width: 576px) {
+    .p-initiate {
+        margin: 0px 10px;
+    }
+} */
+
+.album-bg-color {
+    background-color: #393e46;
+}
+
+.hi-btn {
+    border: 2px solid #00adb5;
+    border-radius: 10px;
+}
+
+.overlay-container {
+    position: absolute;
+    top: 50%; /* Position it at the middle of the viewport */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    z-index: 1000; /* Ensure it's on top */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.content p {
+    margin: 0 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content p {
+        margin: 5px 0;
+    }
+
+    .overlay-container {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 10px;
+    }
+}
